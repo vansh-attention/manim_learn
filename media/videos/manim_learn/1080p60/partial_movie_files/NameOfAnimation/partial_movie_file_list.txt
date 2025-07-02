@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:/opt/anaconda3/envs/manim_proj/media/videos/manim_learn/1080p60/partial_movie_files/NameOfAnimation/3529212410_2380375959_3939885839.mp4'
