@@ -1,0 +1,14 @@
+prefix=/opt/anaconda3/envs/manim_proj
+exec_prefix=${prefix}
+libdir=/opt/anaconda3/envs/manim_proj/lib
+includedir=/opt/anaconda3/envs/manim_proj/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 61.19.101
+Requires: 
+Requires.private: libswresample >= 5.3.100, libavutil >= 59.39.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -L/opt/anaconda3/envs/manim_proj/lib -lvpx -lm -L/opt/anaconda3/envs/manim_proj/lib -lvpx -lm -L/opt/anaconda3/envs/manim_proj/lib -lvpx -lm -L/opt/anaconda3/envs/manim_proj/lib -lvpx -lm -liconv -lm -llzma -L/opt/anaconda3/envs/manim_proj/lib -ldav1d -L/opt/anaconda3/envs/manim_proj/lib -lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl -lcairo -framework AudioToolbox -L/opt/anaconda3/envs/manim_proj//opt/anaconda3/envs/manim_proj/lib -laom -lmp3lame -lm -L/opt/anaconda3/envs/manim_proj/lib -lopus -L/opt/anaconda3/envs/manim_proj/lib -lSvtAv1Enc -L/opt/anaconda3/envs/manim_proj/lib -lvorbis -L/opt/anaconda3/envs/manim_proj/lib -lvorbisenc -L/opt/anaconda3/envs/manim_proj/lib -lx264 -L/opt/anaconda3/envs/manim_proj/lib -lx265 -L/opt/anaconda3/envs/manim_proj/lib -lopenh264 -pthread -L/opt/anaconda3/envs/manim_proj/lib -lz -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Cflags: -I${includedir}

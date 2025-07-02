@@ -1,0 +1,13 @@
+prefix=/opt/anaconda3/envs/manim_proj
+exec_prefix=/opt/anaconda3/envs/manim_proj
+libdir=/opt/anaconda3/envs/manim_proj/lib
+includedir=/opt/anaconda3/envs/manim_proj/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 26.2.20
+Requires: 
+Libs: -L/opt/anaconda3/envs/manim_proj/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

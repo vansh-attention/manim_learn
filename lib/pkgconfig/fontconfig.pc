@@ -1,0 +1,16 @@
+prefix=/opt/anaconda3/envs/manim_proj
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+sysconfdir=/opt/anaconda3/envs/manim_proj/etc
+localstatedir=/opt/anaconda3/envs/manim_proj/var
+confdir=/opt/anaconda3/envs/manim_proj/etc/fonts
+cachedir=/opt/anaconda3/envs/manim_proj/var/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.15.0
+Requires: freetype2 >=  21.0.15
+Requires.private: expat
+Libs: -L${libdir} -lfontconfig
+Cflags: -I${includedir}

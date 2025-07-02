@@ -1,0 +1,14 @@
+prefix=/opt/anaconda3/envs/manim_proj
+exec_prefix=${prefix}
+libdir=/opt/anaconda3/envs/manim_proj/lib
+includedir=/opt/anaconda3/envs/manim_proj/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 10.4.100
+Requires: 
+Requires.private: libswscale >= 8.3.100, libpostproc >= 58.3.100, libavformat >= 61.7.100, libavcodec >= 61.19.101, libswresample >= 5.3.100, libavutil >= 59.39.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -framework OpenGL -framework OpenGL -pthread -lm -L/opt/anaconda3/envs/manim_proj/lib -lharfbuzz -L/opt/anaconda3/envs/manim_proj/lib -lass -framework Metal -framework VideoToolbox -framework CoreImage -framework AppKit -L/opt/anaconda3/envs/manim_proj/lib -lfontconfig -lfreetype -L/opt/anaconda3/envs/manim_proj/lib -lfreetype -L/opt/anaconda3/envs/manim_proj/lib -lopenvino_onnx_frontend -lopenvino_paddle_frontend -lopenvino_pytorch_frontend -lopenvino_tensorflow_frontend -lopenvino_tensorflow_lite_frontend -lopenvino_c -lopenvino -ltbb -lpugixml -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Cflags: -I${includedir}

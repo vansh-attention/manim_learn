@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/opt/anaconda3/envs/manim_proj/bin/gdk-pixbuf-thumbnailer
+Exec=/opt/anaconda3/envs/manim_proj/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+MimeType=image/svg+xml;image/svg+xml-compressed;

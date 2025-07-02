@@ -1,0 +1,14 @@
+prefix=/opt/anaconda3/envs/manim_proj
+exec_prefix=${prefix}
+libdir=/opt/anaconda3/envs/manim_proj/lib
+includedir=/opt/anaconda3/envs/manim_proj/include
+
+Name: libpostproc
+Description: FFmpeg postprocessing library
+Version: 58.3.100
+Requires: 
+Requires.private: libavutil >= 59.39.100
+Conflicts:
+Libs: -L${libdir}  -lpostproc 
+Libs.private: -lm
+Cflags: -I${includedir}

@@ -1,0 +1,81 @@
+{
+  "build": "h68e5b86_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "__osx >=11.0",
+    "libzlib >=1.3.1,<2.0a0",
+    "harfbuzz >=11.0.0,<12.0a0",
+    "fontconfig >=2.15.0,<3.0a0",
+    "fonts-conda-ecosystem",
+    "fribidi >=1.0.10,<2.0a0",
+    "freetype >=2.13.3,<3.0a0",
+    "libiconv >=1.18,<2.0a0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/libass-0.17.3-h68e5b86_2",
+  "files": [
+    "include/ass/ass.h",
+    "include/ass/ass_types.h",
+    "lib/libass.9.dylib",
+    "lib/libass.dylib",
+    "lib/pkgconfig/libass.pc"
+  ],
+  "fn": "libass-0.17.3-h68e5b86_2.conda",
+  "license": "ISC",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/libass-0.17.3-h68e5b86_2",
+    "type": 1
+  },
+  "md5": "47db4495c24bd2d2da1af0ab11351892",
+  "name": "libass",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/libass-0.17.3-h68e5b86_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/ass/ass.h",
+        "path_type": "hardlink",
+        "sha256": "c322bb1f03dfe3a2bdbcd61002ff92684cd6f6ef593bc4a9dbca13f79f9c6ba2",
+        "sha256_in_prefix": "c322bb1f03dfe3a2bdbcd61002ff92684cd6f6ef593bc4a9dbca13f79f9c6ba2",
+        "size_in_bytes": 31561
+      },
+      {
+        "_path": "include/ass/ass_types.h",
+        "path_type": "hardlink",
+        "sha256": "b2f06eaaba5d80b3a23fb08726f1152f12a0f583346ad0086a80ebbdb4c48cf8",
+        "sha256_in_prefix": "b2f06eaaba5d80b3a23fb08726f1152f12a0f583346ad0086a80ebbdb4c48cf8",
+        "size_in_bytes": 13379
+      },
+      {
+        "_path": "lib/libass.9.dylib",
+        "path_type": "hardlink",
+        "sha256": "d68dc116aa2a95b1d6aaace2d2dc545154a2cc73f508cd8c7ee311403e3f066a",
+        "sha256_in_prefix": "d68dc116aa2a95b1d6aaace2d2dc545154a2cc73f508cd8c7ee311403e3f066a",
+        "size_in_bytes": 459248
+      },
+      {
+        "_path": "lib/libass.dylib",
+        "path_type": "softlink",
+        "sha256": "d68dc116aa2a95b1d6aaace2d2dc545154a2cc73f508cd8c7ee311403e3f066a",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/pkgconfig/libass.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_libass_1743207022/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "513a21ae31ce473f79b036af4ba5a208b90221c5cf080faa1223908172a1d86c",
+        "sha256_in_prefix": "5fac3e277e5a02fe82fe4a5db072b13ae2df4a8ed6cf361ddff7fc4582d78f69",
+        "size_in_bytes": 671
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bba6588c2699353a419b3f627b023f1606f37cad25e37a906337710ab84badfa",
+  "size": 138347,
+  "subdir": "osx-arm64",
+  "timestamp": 1743207022000,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libass-0.17.3-h68e5b86_2.conda",
+  "version": "0.17.3"
+}

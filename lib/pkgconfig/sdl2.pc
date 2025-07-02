@@ -1,0 +1,14 @@
+# sdl2_compat pkg-config source file
+
+prefix=/opt/anaconda3/envs/manim_proj
+exec_prefix=${prefix}
+libdir=/opt/anaconda3/envs/manim_proj/lib
+includedir=/opt/anaconda3/envs/manim_proj/include
+
+Name: sdl2_compat
+Description: An SDL2 compatibility layer that uses SDL3 behind the scenes.
+Version: 2.32.54
+Provides: sdl2 = 2.32.54
+Libs: -L${libdir}  -lSDL2main -lSDL2 -Wl,-framework,Cocoa
+#Libs.private: 
+Cflags: -I${includedir} -I${includedir}/SDL2 -D_THREAD_SAFE
